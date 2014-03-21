@@ -1,0 +1,25 @@
+<?php
+	if($_SESSION['username']=='')
+	{
+	?>
+	<form method="post" action="login/trial.php">
+		<div id="search">
+			<input type="text" class="text" maxlength="64" name="username" value="Username" onfocus="this.value=''"/>
+			<input type="text" class="text" maxlength="64" name="password" value="Password" onfocus="this.value=''" />
+			<input type="submit" class="submit" value="Login" />
+		</div>
+	</form>
+	<?
+	}
+	elseif($_SESSION['username']!='')
+	{
+	?>
+	<form method="post" action="#">
+		<div id="search">
+			<input type="text" class="text" maxlength="64" name="Search" value="Search" onfocus="this.value=''" />
+			<input type="submit" class="submit" value="Search" />
+		</div>
+	</form>
+	<?
+	}
+	?>

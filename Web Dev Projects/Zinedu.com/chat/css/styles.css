@@ -1,0 +1,135 @@
+/** 
+* PHPSimpleChat - PHPSimpleChat Styles
+* 
+* LICENSE: Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 unless arranged with copyright holder.
+* 
+* @copyright  2008 Elliott Brueggeman 
+* @license    http://www.ebrueggeman.com/phpsimplechat/documentation_usage.php
+* @version    0.2
+* @link       http://www.ebrueggeman.com/phpsimplechat 
+* @since      File available since Release 0.1
+*/
+.phpsimplechat {
+  text-align: left;
+  font-size: 12px;
+  font-family: arial, san-serif; 
+}
+
+.chat_usr {
+  color: #0000FF;
+  font-weight: bold;
+}
+
+.chat_dt {
+  color: #0000FF;
+  font-size:11px;
+}
+
+.chat_sys{
+  color: #19A730;
+  color: #FF7E00;
+}
+
+.private_chat_buttons{
+  border:0;
+  vertical-align:top;
+}
+
+.private_chat {
+  margin: 4px 0px 2px 0px;
+}
+
+.private_chat a {
+  text-decoration: none;
+}
+
+.private_chat a:hover { 
+  text-decoration: underline;
+}
+
+#private_chat_icon {
+  border:0;
+  vertical-align:top;
+}
+
+#room_icon {
+  border:0;
+  vertical-align:top;
+}
+
+#div_chat_header {
+  font-size:13px;
+  font-weight: bold;
+  background-color: #F8F8F8;
+  border: solid 1px #E0E0E0;
+  padding: 5px;
+  margin: 0px 0px;
+}
+
+#div_chat_private{
+  border: solid 1px #19A730;
+  background-color: #D7FFBF	;
+  padding: 5px 4px 2px 4px;
+  margin: 0px 0px 0px 0px;
+  display: none;
+}
+
+#div_chat_private_invites{
+  font-size: 10px;
+}
+
+#div_chat_input {
+  margin: 6px 1px 2px 1px;
+}
+
+#table_chat_outer{
+  border: solid 1px #CCCCCC; 
+  background-color: #EEEEEE; 
+  padding: 3px;
+}
+
+#table_chat_outer td {	
+  vertical-align: top;
+  text-align: left;
+}
+
+#div_chat_window {
+  background-color: #FFFFFF;
+  height: 312px;
+  width: 500px;
+  border: solid 1px #E0E0E0; 
+  padding: 5px; 
+  margin-right: 20px; 
+  margin: 0px 0px 0px 0px;
+  overflow: auto;
+  bottom: auto;
+}
+
+#div_chat_right_container {
+  background-color: #F8F8F8;
+  border: solid 1px #E0E0E0;
+  width: 200px; 
+  height: 312px;
+  margin: 0px 0px 0px 0px;
+  padding: 5px;
+  overflow: auto;
+ 
+}
+
+#div_attribution {
+  text-align: center;
+  padding-top: 4px;
+  padding-left: 8px;
+}
+
+#span_version {
+  color: #BBBBBB;
+  font-size: 8px;
+  vertical-align: middle;
+  padding: 3px;
+}
+
+#phpfreechat_icon {
+  border:0;
+  vertical-align:middle;
+}

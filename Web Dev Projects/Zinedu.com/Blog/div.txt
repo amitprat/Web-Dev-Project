@@ -1,0 +1,9 @@
+<html>
+<head>
+<title> div</title>
+</head><body>
+<div id="my_area" align="right">
+My text here
+</div>
+</body>
+</html>
